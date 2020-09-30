@@ -17,6 +17,8 @@ After that you can run the project using:
 npm run dev
 ```
 
+The default port is 3000
+
 ## How to build for production
 
 Since this project uses SSR, you have first to build using:
@@ -31,4 +33,6 @@ And then use:
 npm run start
 ```
 
-In order to start the server!
+In order to start the server (The default port is 3000)!
+
+PS: In order to get better performance, please build and run the project as production
