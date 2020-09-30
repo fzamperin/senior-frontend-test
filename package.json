@@ -1,5 +1,7 @@
 {
   "name": "dps-senior-frontend-test",
+  "author": "Fernando Penna",
+  "version": "1.0.0",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -8,6 +10,14 @@
   },
   "dependencies": {
     "nuxt": "^2.14.6",
-    "tailwindcss": "^1.8.10"
+    "tailwindcss": "^1.8.10",
+    "v-mask": "^2.2.3",
+    "vue2-collapse": "^1.0.15",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2"
   }
 }
